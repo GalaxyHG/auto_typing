@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Kavivanar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(9,9,9,1) 30%, rgba(5,5,5,1) 60%, rgba(0,0,0,1) 100%); */
+    background: #121212;
+    background-image: url("./background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -3px;
+    height: 300vh;
+    padding: 0px 30%;
+}
+
+.container {
+    text-align: center;
+    padding-top: 10px;
+}
+
+h1 {
+    color: #FFF;
+    font-family: "Karla", sans-serif;
+    letter-spacing: 1px;
+}
+
+h1::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+/* .nav-bar {
+    width: 100%;
+} */
+
+ul li {
+    display: inline-block;
+    padding: 0px 27px;
+}
+
+ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+    font-family: "Karla", sans-serif;
+}
+
+ul li a:hover {
+    text-shadow: 0px 0px 16px #ffffff79;
+}
+
+span {
+    font-family: "Kavivanar", cursive;
+}
+
+.min-title {
+    font-size: 26px;
+    color: #FFF;
+}
+
+.main-title {
+    font-size: 84px;
+    color: #FFF;    
+}
+
+.intro-name  {
+    margin: 20vh 0px;
+}
+
