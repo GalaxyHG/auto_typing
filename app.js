@@ -24,7 +24,7 @@
 
         const digitando = document.querySelector('[data-js="digitando"]');
 
-        const mensagens = ['Atriz', 'Desenvolvedora Front-End', 'Pombo'];
+        const mensagens = ['Atriz', 'Desenvolvedora Web-Mobile', 'Fullstack', 'Desenvolvedora Front-End', 'Cientista de Dados', 'Analista de Testes'];
 
         let mensagemIndex = 0;
         let caractereIndex = 0;
